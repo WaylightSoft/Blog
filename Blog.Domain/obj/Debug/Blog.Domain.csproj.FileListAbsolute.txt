@@ -1,0 +1,22 @@
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\Blog.Domain.dll.config
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\Blog.Domain.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\obj\Debug\Blog.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\obj\Debug\Blog.Domain.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.Domain\obj\Debug\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\Blog.Domain.dll.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\Blog.Domain.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.pdb

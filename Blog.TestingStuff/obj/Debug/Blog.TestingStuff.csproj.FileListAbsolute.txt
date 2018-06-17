@@ -1,0 +1,17 @@
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\obj\Debug\Blog.TestingStuff.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\obj\Debug\Blog.TestingStuff.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.TestingStuff.exe.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.TestingStuff.exe
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.TestingStuff.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.DataAccess.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.Domain.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.DataAccess.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.DataAccess.dll.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\bin\Debug\Blog.Domain.dll.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\obj\Debug\Blog.TestingStuff.exe
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.TestingStuff\obj\Debug\Blog.TestingStuff.pdb

@@ -1,0 +1,104 @@
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\ApplicationInsights.config
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Blog.WebLayer.dll.config
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Blog.WebLayer.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Blog.WebLayer.pdb
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Antlr3.Runtime.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Newtonsoft.Json.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Helpers.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Http.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Mvc.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Optimization.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Razor.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\WebGrease.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Newtonsoft.Json.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Helpers.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Http.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Mvc.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Optimization.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.Razor.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\obj\Debug\Blog.WebLayer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\obj\Debug\Blog.WebLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\obj\Debug\Blog.WebLayer.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\obj\Debug\Blog.WebLayer.pdb
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.xml
+C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\ApplicationInsights.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.dll.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Antlr3.Runtime.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Newtonsoft.Json.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Helpers.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Http.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Mvc.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Optimization.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Razor.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\WebGrease.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Newtonsoft.Json.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Helpers.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Http.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Mvc.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Optimization.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Razor.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.pdb
