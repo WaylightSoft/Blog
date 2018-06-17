@@ -71,6 +71,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.AppLogic\Blog.AppLogic.csproj">
+      <Project>{fff09589-083b-4c08-ad2a-730bc5056592}</Project>
+      <Name>Blog.AppLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

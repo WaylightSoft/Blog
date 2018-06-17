@@ -26,3 +26,5 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\Blog.Domain.p
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\Blog.Domain.dll.config
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\Blog.AppLogic.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DataAccess\bin\Debug\Blog.AppLogic.pdb

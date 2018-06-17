@@ -40,12 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\Credentials\CredentialsEditionDTO.cs" />
+    <Compile Include="DTO\Image\ImageEditionDTO.cs" />
+    <Compile Include="DTO\Image\ImageInsDTO.cs" />
+    <Compile Include="DTO\PostImage\PostImageEditionDTO.cs" />
+    <Compile Include="DTO\PostImage\PostImageInsDTO.cs" />
+    <Compile Include="DTO\PostTag\PostTagEditionDTO.cs" />
+    <Compile Include="DTO\PostTag\PostTagInsDTO.cs" />
+    <Compile Include="DTO\Post\PostEditionDTO.cs" />
+    <Compile Include="DTO\Post\PostInsDTO.cs" />
+    <Compile Include="DTO\Role\RoleEditionDTO.cs" />
+    <Compile Include="DTO\Role\RoleInsDTO.cs" />
+    <Compile Include="DTO\Tag\TagEditionDTO.cs" />
+    <Compile Include="DTO\Tag\TagInsDTO.cs" />
     <Compile Include="DTO\UserCredentials\UserCredentialsEditionDTO.cs" />
     <Compile Include="DTO\UserCredentials\UserCredentialsInsDTO.cs" />
     <Compile Include="DTO\User\UserEditionDTO.cs" />
     <Compile Include="DTO\User\UserInsDTO.cs" />
-    <Compile Include="DTO\User\UserRemDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -63,6 +63,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Blog.AppLogic\Blog.AppLogic.csproj">
+      <Project>{fff09589-083b-4c08-ad2a-730bc5056592}</Project>
+      <Name>Blog.AppLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Blog.Domain\Blog.Domain.csproj">
       <Project>{9615e08a-2ec7-42ea-b2a5-09e825fd0828}</Project>
       <Name>Blog.Domain</Name>
