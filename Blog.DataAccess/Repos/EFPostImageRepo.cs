@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
-using Blog.AppLogic.DTO.PostImage;
 using System.Data.Entity.Migrations;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFPostImageRepo : IPostImageRepo
+    public class EFPostImageRepo : IPostImageRepo
     {
         private BlogDataContext context;
 
@@ -19,13 +18,13 @@ namespace Blog.DataAccess.Entities.Repos
         {
             this.context = context;
         }
-        public void Create(PostImageInsDTO dto)
+        public void Create(int ImageId,int PostId,int ImageNumber)
         {
             this.context.PostImages.Add(new PostImage()
             {
-                ImageId = dto.ImageId,
-                PostId = dto.PostId,
-                ImageNumber = dto.ImageNumber
+                ImageId = ImageId,
+                PostId = PostId,
+                ImageNumber = ImageNumber
             });
         }
 
@@ -50,12 +49,12 @@ namespace Blog.DataAccess.Entities.Repos
           context.PostImages.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(PostImageEditionDTO dto)
+        public void Update(int Id, int ImageId, int ImageNumber=0)
         {
-            PostImage postImage = context.PostImages.Find(dto.Id);
-            if(dto.ImageId!=0)
-                postImage.ImageId = dto.ImageId;
-            postImage.ImageNumber = dto.ImageNumber != 0 ? dto.ImageNumber:postImage.ImageNumber;
+            PostImage postImage = context.PostImages.Find(Id);
+            if(ImageId!=0)
+                postImage.ImageId = ImageId;
+            postImage.ImageNumber = ImageNumber != 0 ? ImageNumber:postImage.ImageNumber;
 
             context.PostImages.AddOrUpdate(postImage);
         }

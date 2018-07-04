@@ -8,8 +8,6 @@ namespace Blog.AppLogic.DTO.Role
 {
     public class RoleInsDTO
     {
-        public int Id { get; set; }
-
         public string Name { get; set; }
     }
 }

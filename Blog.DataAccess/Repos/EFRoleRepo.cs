@@ -6,23 +6,22 @@ using System.Threading.Tasks;
 using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
-using Blog.AppLogic.DTO.Role;
 using System.Data.Entity.Migrations;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFRoleRepo : IRoleRepo
+    public class EFRoleRepo : IRoleRepo
     {
         BlogDataContext context;
         public EFRoleRepo(BlogDataContext context)
         {
             this.context = context;
         }
-        public void Create(RoleInsDTO dto)
+        public void Create(string Name)
         {
             context.Roles.Add(new Role()
             {
-                Name = dto.Name
+                Name = Name
             });
         }
 
@@ -47,17 +46,14 @@ namespace Blog.DataAccess.Entities.Repos
               context.Roles.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(RoleEditionDTO dto)
+        public void Update(int Id,string Name)
         {
-            if (!string.IsNullOrEmpty(dto.Name))
-            {
-
+            if (!string.IsNullOrEmpty(Name))
                 context.Roles.AddOrUpdate(new Role()
                 {
-                    Id = dto.Id,
-                    Name = dto.Name
+                    Id = Id,
+                    Name = Name
                 });
-            }
         }
     }
 }

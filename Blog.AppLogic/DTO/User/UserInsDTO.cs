@@ -8,8 +8,6 @@ namespace Blog.AppLogic.DTO.User
 {
     public class UserInsDTO
     {
-        public int Id { get; set; }
-
         public string Nickname { get; set; }
 
         public string Bio { get; set; }

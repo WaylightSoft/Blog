@@ -8,7 +8,6 @@ namespace Blog.AppLogic.DTO.Tag
 {
     public class TagInsDTO
     {
-        public int Id { get; set; }
 
         public string Name { get; set; }
     }

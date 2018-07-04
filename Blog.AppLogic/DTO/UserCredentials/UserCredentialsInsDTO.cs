@@ -8,7 +8,6 @@ namespace Blog.AppLogic.DTO.UserCredentials
 {
     public class UserCredentialsInsDTO
     {
-        public int Id { get; set; }
 
         public string Login { get; set; }
 

@@ -6,23 +6,22 @@ using System.Threading.Tasks;
 using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
-using Blog.AppLogic.DTO.Tag;
 using System.Data.Entity.Migrations;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFTagRepo : ITagRepo
+    public class EFTagRepo : ITagRepo
     {
         BlogDataContext context;
         public EFTagRepo(BlogDataContext context)
         {
             this.context = context;
         }
-        public void Create(TagInsDTO dto)
+        public void Create(string Name)
         {
             this.context.Tags.Add(new Tag()
             {
-                Name = dto.Name
+                Name = Name
             });
         }
 
@@ -47,15 +46,15 @@ namespace Blog.DataAccess.Entities.Repos
              context.Tags.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(TagEditionDTO dto)
+        public void Update(int Id,string Name)
         {
            
-            if (!string.IsNullOrEmpty(dto.Name))
+            if (!string.IsNullOrEmpty(Name))
             {
                 context.Tags.AddOrUpdate(new Tag()
                 {
-                    Id = dto.Id,
-                    Name = dto.Name
+                    Id = Id,
+                    Name = Name
                 });
             }
         }

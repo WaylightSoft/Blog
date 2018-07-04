@@ -8,8 +8,6 @@ namespace Blog.AppLogic.DTO.Post
 {
     public class PostInsDTO
     {
-        public int Id { get; set; }
-
         public string Content { get; set; }
 
         public float Rating { get; set; }

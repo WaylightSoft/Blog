@@ -7,25 +7,25 @@ using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
 using System.Data.Entity.Migrations;
-using Blog.AppLogic.DTO.User;
+using Blog.AppLogic.User;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFUserRepo : IUserRepo
+    public class EFUserRepo : IUserRepo
     {
         BlogDataContext context;
         public EFUserRepo(BlogDataContext context)
         {
             this.context = context;
         }
-        public void Create(UserInsDTO dto)
+        public void Create(string Nickname, string Bio, int RoleId,int UserCredentialsId)
         {
             context.Users.Add(new User()
             {
-                Bio = dto.Bio,
-                Nickname = dto.Nickname,
-                RoleId = dto.RoleId,
-                UserCredentialsId = dto.UserCredentialsId
+                Bio = Bio,
+                Nickname = Nickname,
+                RoleId = RoleId,
+                UserCredentialsId = UserCredentialsId
             });
         }
 
@@ -50,12 +50,12 @@ namespace Blog.DataAccess.Entities.Repos
               context.Users.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(UserEditionDTO dto)
+        public void Update(int Id, string Nickname, string Bio, int RoleId)
         {
-            User user =context.Users.Find(dto.Id);
-            user.Nickname = string.IsNullOrEmpty(dto.Nickname) ? user.Nickname : dto.Nickname;
-            user.Bio = string.IsNullOrEmpty(dto.Bio)?user.Bio:dto.Bio;
-            user.RoleId = dto.RoleId==0?user.RoleId:dto.RoleId;
+            User user =context.Users.Find(Id);
+            user.Nickname = string.IsNullOrEmpty(Nickname) ? user.Nickname : Nickname;
+            user.Bio = string.IsNullOrEmpty(Bio)?user.Bio:Bio;
+            user.RoleId = RoleId==0?user.RoleId:RoleId;
             context.Users.AddOrUpdate(user);
         }
     }

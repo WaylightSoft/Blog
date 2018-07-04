@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
-using Blog.AppLogic.DTO.Post;
 using System.Data.Entity.Migrations;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFPostRepo : IPostRepo
+    public class EFPostRepo : IPostRepo
     {
         private BlogDataContext context;
         public EFPostRepo(BlogDataContext context)
@@ -22,10 +21,10 @@ namespace Blog.DataAccess.Entities.Repos
         {
             context.Posts.Add(new Post()
             {
-                Content = dto.Content,
-                Views = dto.Views,
-                Rating = dto.Rating,
-                UserId = dto.UserId
+                Content = Content,
+                Views = Views,
+                Rating = Rating,
+                UserId = UserId
             });
         }
 
@@ -50,15 +49,15 @@ namespace Blog.DataAccess.Entities.Repos
                context.Posts.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(PostEditionDTO dto)
+        public void Update(int Id, string Content, int Views,float Rating )
         {
-            Post post = context.Posts.Find(dto.Id);
-            if(String.IsNullOrEmpty(dto.Content))
-                post.Content = dto.Content;
-            if(dto.Views!=0)
-                post.Views = dto.Views; 
-            if (dto.Rating != 0)
-                post.Rating = dto.Rating;
+            Post post = context.Posts.Find(Id);
+            if(String.IsNullOrEmpty(Content))
+                post.Content = Content;
+            if(Views!=0)
+                post.Views = Views; 
+            if (Rating != 0)
+                post.Rating = Rating;
                 
             context.Posts.AddOrUpdate(post);
         }

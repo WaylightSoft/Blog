@@ -7,11 +7,10 @@ using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
 using System.Data.Entity.Migrations;
-using Blog.AppLogic.DTO.UserCredentials;
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFUserCredentialRepo : IUserCredentialRepo
+    public class EFUserCredentialRepo : IUserCredentialRepo
     {
         BlogDataContext context;
 
@@ -19,13 +18,13 @@ namespace Blog.DataAccess.Entities.Repos
         {
             this.context = context;
         }
-        public void Create(UserCredentialsInsDTO dto)
+        public void Create(string Login,string Password)
         {
 
             context.UserCredentials.Add(new UserCredential()
             {
-                Login = dto.Login,
-                Password = dto.Password
+                Login = Login,
+                Password = Password
             });
         }
 
@@ -50,13 +49,13 @@ namespace Blog.DataAccess.Entities.Repos
              context.UserCredentials.Where(x => ids.Exists(y => y == x.Id)).ToList();
         }
 
-        public void Update(UserCredentialsEditionDTO dto)
+        public void Update(int Id,string Password)
         {
 
-            if (!string.IsNullOrEmpty(dto.Password))
+            if (!string.IsNullOrEmpty(Password))
             {
-                UserCredential userCredential = context.UserCredentials.Find(dto.Id);
-                userCredential.Password = dto.Password;
+                UserCredential userCredential = context.UserCredentials.Find(Id);
+                userCredential.Password = Password;
                 context.UserCredentials.AddOrUpdate(userCredential);
             }
 

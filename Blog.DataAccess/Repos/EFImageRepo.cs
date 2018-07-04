@@ -7,22 +7,22 @@ using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
 using Blog.Domain;
 using System.Data.Entity.Migrations;
-using Blog.AppLogic.DTO.Image;
+
 
 namespace Blog.DataAccess.Entities.Repos
 {
-    class EFImageRepo : IImageRepo
+    public class EFImageRepo : IImageRepo
     {
         private BlogDataContext context;
         public EFImageRepo(BlogDataContext context)
         {
             this.context = context;
         }
-        public void Create(ImageInsDTO dto)
+        public void Create(string Path)
         {
             context.Images.Add(new Image()
             {
-                Path = dto.Path
+                Path = Path
             });
         }
 
@@ -32,13 +32,13 @@ namespace Blog.DataAccess.Entities.Repos
             context.Images.Remove(img);
         }
 
-        public void Update(ImageEditionDTO dto)
+        public void Update(int Id,string Path)
         {
 
-            if (!string.IsNullOrEmpty(dto.Path))
+            if (!string.IsNullOrEmpty(Path))
             {
-                Image img = context.Images.Find(dto.Id);
-                img.Path = dto.Path;
+                Image img = context.Images.Find(Id);
+                img.Path = Path;
                 context.Images.AddOrUpdate(img);
             }
         }
