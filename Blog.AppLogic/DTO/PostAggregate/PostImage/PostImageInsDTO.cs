@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Blog.AppLogic.DTO.PostImage
 {
-    public class PostImageEditionDTO
+    public class PostImageInsDTO
     {
-        public int Id { get; set; }
-
         public int ImageId { get; set; }
 
-        public int? ImageNumber { get; set; }
+        public int PostId { get; set; }
+
+        public int ImageNumber { get; set; }
     }
 }

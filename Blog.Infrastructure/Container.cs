@@ -9,7 +9,7 @@ using Blog.DataAccess.Entities.Repos;
 
 namespace Blog.Infrastructure
 {
-    class Container
+    public class Container
     {
         private static UnityContainer dIContainer;
         public static UnityContainer DIContainer
@@ -18,11 +18,12 @@ namespace Blog.Infrastructure
                 if (dIContainer == null)
                 {
                     dIContainer = new UnityContainer();
+                    RegisterAll(dIContainer);
                 }
                 return dIContainer;
             }
         }
-        private void RegisterAll(UnityContainer container)
+        private static void RegisterAll(UnityContainer container)
         {
             container.RegisterType<IImageRepo, EFImageRepo>();
             container.RegisterType<IPostImageRepo, EFPostImageRepo>();

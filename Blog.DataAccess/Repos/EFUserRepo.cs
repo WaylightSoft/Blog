@@ -7,7 +7,7 @@ using Blog.Domain;
 using Blog.Domain.Entities.Repos;
 using Blog.Domain.Entities;
 using System.Data.Entity.Migrations;
-using Blog.AppLogic.User;
+
 
 namespace Blog.DataAccess.Entities.Repos
 {
@@ -31,6 +31,7 @@ namespace Blog.DataAccess.Entities.Repos
 
         public void Delete(int id)
         {
+            if(id>0)
             context.Users.Remove(context.Users.Find(id));
         }
 

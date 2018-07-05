@@ -30,6 +30,7 @@ namespace Blog.DataAccess.Entities.Repos
 
         public void Delete(int id)
         {
+            if(id>0)
             this.context.PostImages.Remove(context.PostImages.Find(id));
         }
 
@@ -43,10 +44,9 @@ namespace Blog.DataAccess.Entities.Repos
             return this.context.PostImages.Find(id);
         }
 
-        public List<PostImage> GetPostImages(List<int> ids = null)
+        public List<PostImage> GetPostImages(int PostId)
         {
-            return ids == null ? context.PostImages.ToList() :
-          context.PostImages.Where(x => ids.Exists(y => y == x.Id)).ToList();
+            return context.PostImages.Where(x => x.PostId==PostId).ToList();
         }
 
         public void Update(int Id, int ImageId, int ImageNumber=0)

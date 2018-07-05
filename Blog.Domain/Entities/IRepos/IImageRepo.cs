@@ -11,7 +11,7 @@ namespace Blog.Domain.Entities.Repos
         void Update(int Id, string Path);
         void Delete(int id);
         Image GetImage(int id);
-        List<Image> GetImages(List<int> ids = null);
+        List<Image> GetImages(int PostId);
 
     }
 }

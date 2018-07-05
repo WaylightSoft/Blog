@@ -12,6 +12,6 @@ namespace Blog.Domain.Entities.Repos
         void Update(int Id, string Content, float Rating, int Views);
         void Delete(int id);
         Post GetPost(int id);
-        List<Post> GetPosts(List<int> ids = null);
+        List<Post> GetPosts(int PageNo,int TagId=0,int UserId=0);
     }
 }

@@ -27,6 +27,7 @@ namespace Blog.DataAccess.Entities.Repos
 
         public void Delete(int id)
         {
+            if(id>0)
             this.context.Tags.Remove(context.Tags.Find(id));
         }
 

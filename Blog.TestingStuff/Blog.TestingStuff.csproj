@@ -57,16 +57,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Blog.DataAccess\Blog.DataAccess.csproj">
-      <Project>{e9dff8ed-ec90-4978-b12b-81f790aa7a86}</Project>
-      <Name>Blog.DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Blog.Domain\Blog.Domain.csproj">
-      <Project>{9615e08a-2ec7-42ea-b2a5-09e825fd0828}</Project>
-      <Name>Blog.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="ent\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

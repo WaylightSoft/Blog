@@ -40,26 +40,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\Image\ImageEditionDTO.cs" />
-    <Compile Include="DTO\Image\ImageInsDTO.cs" />
-    <Compile Include="DTO\PostImage\PostImageEditionDTO.cs" />
-    <Compile Include="DTO\PostImage\PostImageInsDTO.cs" />
-    <Compile Include="DTO\PostTag\PostTagEditionDTO.cs" />
-    <Compile Include="DTO\PostTag\PostTagInsDTO.cs" />
-    <Compile Include="DTO\Post\PostEditionDTO.cs" />
-    <Compile Include="DTO\Post\PostInsDTO.cs" />
-    <Compile Include="DTO\Role\RoleEditionDTO.cs" />
-    <Compile Include="DTO\Role\RoleInsDTO.cs" />
-    <Compile Include="DTO\Tag\TagEditionDTO.cs" />
-    <Compile Include="DTO\Tag\TagInsDTO.cs" />
-    <Compile Include="DTO\UserCredentials\UserCredentialsEditionDTO.cs" />
-    <Compile Include="DTO\UserCredentials\UserCredentialsInsDTO.cs" />
-    <Compile Include="DTO\User\UserEditionDTO.cs" />
-    <Compile Include="DTO\User\UserInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Image\ImageEditionDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Image\ImageInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\PostImage\PostImageEditionDTO.cs" />
+    <Compile Include="DTO\PostAggregate\PostImage\PostImageInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\PostTag\PostTagEditionDTO.cs" />
+    <Compile Include="DTO\PostAggregate\PostTag\PostTagInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Post\PostEditionDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Post\PostInsDTO.cs" />
+    <Compile Include="DTO\UserAggregate\Role\RoleEditionDTO.cs" />
+    <Compile Include="DTO\UserAggregate\Role\RoleInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Tag\TagEditionDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Tag\TagInsDTO.cs" />
+    <Compile Include="DTO\UserAggregate\UserCredentials\UserCredentialsEditionDTO.cs" />
+    <Compile Include="DTO\UserAggregate\UserCredentials\UserCredentialsInsDTO.cs" />
+    <Compile Include="DTO\UserAggregate\User\UserEditionDTO.cs" />
+    <Compile Include="DTO\UserAggregate\User\UserInsDTO.cs" />
+    <Compile Include="Managers\PostAggregate\ImageManager.cs" />
+    <Compile Include="Managers\PostAggregate\PostImageManager.cs" />
+    <Compile Include="Managers\PostAggregate\PostManager.cs" />
+    <Compile Include="Managers\PostAggregate\PostTagManager.cs" />
+    <Compile Include="Managers\PostAggregate\TagManager.cs" />
+    <Compile Include="Managers\UserAggregate\RoleManager.cs" />
+    <Compile Include="Managers\UserAggregate\UserCredentialsManager.cs" />
+    <Compile Include="Managers\UserAggregate\UserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Managers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

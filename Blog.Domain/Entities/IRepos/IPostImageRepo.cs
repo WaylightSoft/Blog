@@ -12,6 +12,6 @@ namespace Blog.Domain.Entities.Repos
         void Update(int Id, int ImageId, int ImageNumber);
         void Delete(int id);
         PostImage GetPostImage(int id);
-        List<PostImage> GetPostImages(List<int> ids = null);
+        List<PostImage> GetPostImages(int PostId);
     }
 }

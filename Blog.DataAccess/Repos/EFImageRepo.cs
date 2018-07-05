@@ -14,9 +14,14 @@ namespace Blog.DataAccess.Entities.Repos
     public class EFImageRepo : IImageRepo
     {
         private BlogDataContext context;
+
         public EFImageRepo(BlogDataContext context)
         {
             this.context = context;
+        }
+        public EFImageRepo()
+        {
+            this.context = new BlogDataContext();
         }
         public void Create(string Path)
         {
@@ -28,8 +33,11 @@ namespace Blog.DataAccess.Entities.Repos
 
         public void Delete(int id)
         {
-            Image img = context.Images.Find(id);
-            context.Images.Remove(img);
+            if (id> 0)
+            {
+                Image img = context.Images.Find(id);
+                context.Images.Remove(img);
+            }
         }
 
         public void Update(int Id,string Path)
@@ -49,10 +57,9 @@ namespace Blog.DataAccess.Entities.Repos
             return context.Images.Find(id);
         }
 
-        public List<Image> GetImages(List<int> ids=null)
+        public List<Image> GetImages(int PostId)
         {
-            return ids==null? context.Images.ToList() :
-                context.Images.Where(x => ids.Exists(y=>y==x.Id)).ToList();
+            return context.Images.Where(x => x.PostImages.First().PostId==PostId).ToList();
         }
 
         
