@@ -158,3 +158,10 @@ header
 {
     background-color:  #b3cbf2;
 }
+
+.menu-item
+{
+    padding-top: 0.6%;
+    font-size: x-large;
+    min-width:fit-content;
+}
