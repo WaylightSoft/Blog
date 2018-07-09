@@ -59,7 +59,7 @@ namespace Blog.DataAccess.Entities.Repos
             return list;
         }
 
-        public void Update(int Id, string Content, int Views, float Rating)
+        public void Update(int Id, string Content,  float Rating, int Views)
         {
             Post post = context.Posts.Find(Id);
             if (String.IsNullOrEmpty(Content))

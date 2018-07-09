@@ -7,7 +7,7 @@ namespace Blog.Domain
     using System.Data.Entity.Spatial;
 
     [Table("PostTag")]
-    public partial public class PostTag
+    public partial  class PostTag
     {
         public int Id { get; set; }
 

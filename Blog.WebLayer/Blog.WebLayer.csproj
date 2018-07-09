@@ -183,6 +183,10 @@
     <Compile Include="Controllers\WebApiControllers\APIImageController.cs" />
     <Compile Include="Controllers\WebApiControllers\APIPostController.cs" />
     <Compile Include="Controllers\WebApiControllers\APIPostImageController.cs" />
+    <Compile Include="Controllers\WebApiControllers\APIRoleController.cs" />
+    <Compile Include="Controllers\WebApiControllers\APITagController.cs" />
+    <Compile Include="Controllers\WebApiControllers\APIUserController.cs" />
+    <Compile Include="Controllers\WebApiControllers\APIUserCredentialsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
