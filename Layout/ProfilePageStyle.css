@@ -139,14 +139,15 @@ hr
 {
     /* background-color: #117bf3;
       */
-    width: 5%;
-    
+    width: fit-content;
+    min-width: fit-content;
      float: right;
     /* z-index: -1;*/
     border-radius: 15%;
     margin-right: 5%;  
     padding: 0;
     height: 58.5%;
+    min-height: fit-content;
     margin-top: 1.2%;
 }
 .profile-top
