@@ -35,7 +35,7 @@ namespace Blog.WebLayer.Controllers.WebApiControllers
         [HttpGet]
         public HttpResponseMessage GetCol(int Id)
         {
-            return Request.CreateResponse(HttpStatusCode.OK, repo.GetPostImages(Id);
+            return Request.CreateResponse(HttpStatusCode.OK, repo.GetPostImages(Id));
         }
         [HttpPost]
         public HttpResponseMessage Edit(PostImageEditionDTO dto)
