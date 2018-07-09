@@ -103,13 +103,19 @@
 .rowforrating
 {
     height: 100%;
-    padding-top: 15%;
 }
 hr
 {
     background-color: black;
     width:90.5%;
     height: 0.005%;
+}
+.post-title
+{
+    font-size:x-large;
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
 }
 .search-bar
 {
@@ -118,6 +124,16 @@ hr
     margin-right: 1%;
     border-radius: 5%;
     margin-top: 1.3%;
+    background: #e8ebed;
+    
+    font-size: 14px;
+    color: #657380;
+    
+    
+    padding-left: 1.5%;
+    border: 2px solid #e8ebed;
+    -webkit-appearance: none;
+    border-radius: 5px;
 }
 .search-button
 {
@@ -130,13 +146,12 @@ hr
     border-radius: 15%;
     margin-right: 5%;  
     padding: 0;
-    height: 65%;
+    height: 58.5%;
     margin-top: 1.2%;
 }
 .profile-top
 {
  margin:2% 0% 5% 0%;
-
 }
 header
 {

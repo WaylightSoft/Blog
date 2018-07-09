@@ -20,5 +20,3 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.cspro
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.pdb
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\Blog.AppLogic.dll
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\Blog.AppLogic.pdb
