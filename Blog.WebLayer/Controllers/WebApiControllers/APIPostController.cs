@@ -5,10 +5,11 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Blog.AppLogic.DTO.Post;
-using Blog.Domain;
+using Blog.Domain.Entities;
 using Blog.Infrastructure;
 using Blog.Domain.Entities.Repos;
 using Unity;
+
 
 namespace Blog.WebLayer.Controllers
 {
@@ -27,7 +28,7 @@ namespace Blog.WebLayer.Controllers
             if (dto != null)
             {
                 using (repo)
-                    repo.Create(dto.Content, dto.Rating, dto.Views, dto.UserId);
+                    repo.Create(dto.Content, dto.Rating, dto.Views, dto.UserId,dto.Title);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             return Request.CreateResponse(HttpStatusCode.NoContent);
@@ -43,7 +44,7 @@ namespace Blog.WebLayer.Controllers
             if (dto != null)
             {
                 using (repo)
-                    repo.Update(dto.Id, dto.Content, dto.Rating, dto.Views);
+                    repo.Update(dto.Id, dto.Content, dto.Rating, dto.Views,dto.Title);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             return Request.CreateResponse(HttpStatusCode.NoContent);
