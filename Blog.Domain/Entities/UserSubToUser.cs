@@ -6,19 +6,17 @@ namespace Blog.Domain.Entities
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("PostImage")]
-    public partial class PostImage
+    [Table("UserSubToUser")]
+    public partial class UserSubToUser
     {
         public int Id { get; set; }
 
-        public int PostId { get; set; }
+        public int UserSubscriberId { get; set; }
 
-        public int ImageId { get; set; }
+        public int UserCreatorId { get; set; }
 
-        public int? ImageNumber { get; set; }
+        public virtual User User { get; set; }
 
-        public virtual Image Image { get; set; }
-
-        public virtual Post Post { get; set; }
+        public virtual User User1 { get; set; }
     }
 }

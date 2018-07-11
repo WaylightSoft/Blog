@@ -1,4 +1,4 @@
-namespace Blog.Domain
+namespace Blog.Domain.Entities
 {
     using System;
     using System.Collections.Generic;

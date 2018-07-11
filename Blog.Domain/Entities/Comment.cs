@@ -6,26 +6,33 @@ namespace Blog.Domain.Entities
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("Image")]
-    public partial class Image
+    public partial class Comment
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Image()
+        public Comment()
         {
-            PostImages = new HashSet<PostImage>();
-            Users = new HashSet<User>();
+            Comments1 = new HashSet<Comment>();
         }
 
         public int Id { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string Path { get; set; }
+        [StringLength(1500)]
+        public string Content { get; set; }
+
+        public int PostId { get; set; }
+
+        public int UserId { get; set; }
+
+        public int? CommentId { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PostImage> PostImages { get; set; }
+        public virtual ICollection<Comment> Comments1 { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<User> Users { get; set; }
+        public virtual Comment Comment1 { get; set; }
+
+        public virtual Post Post { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

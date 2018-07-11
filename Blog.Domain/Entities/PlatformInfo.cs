@@ -6,17 +6,16 @@ namespace Blog.Domain.Entities
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("PostTag")]
-    public partial class PostTag
+    [Table("PlatformInfo")]
+    public partial class PlatformInfo
     {
+        [Key]
+        [Column(Order = 0)]
         public int Id { get; set; }
 
-        public int PostId { get; set; }
-
-        public int TagId { get; set; }
-
-        public virtual Post Post { get; set; }
-
-        public virtual Tag Tag { get; set; }
+        [Key]
+        [Column(Order = 1)]
+        [StringLength(1500)]
+        public string Logline { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace Blog.Domain
+namespace Blog.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
@@ -25,6 +25,6 @@ namespace Blog.Domain
         public string Password { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual HashSet<User> Users { get; set; }
+        public virtual ICollection<User> Users { get; set; }
     }
 }

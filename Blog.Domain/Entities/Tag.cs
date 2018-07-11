@@ -1,4 +1,4 @@
-namespace Blog.Domain
+namespace Blog.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
@@ -13,6 +13,7 @@ namespace Blog.Domain
         public Tag()
         {
             PostTags = new HashSet<PostTag>();
+            UserSubsToTags = new HashSet<UserSubsToTag>();
         }
 
         public int Id { get; set; }
@@ -23,5 +24,8 @@ namespace Blog.Domain
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PostTag> PostTags { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<UserSubsToTag> UserSubsToTags { get; set; }
     }
 }

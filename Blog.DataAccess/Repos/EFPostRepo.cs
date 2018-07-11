@@ -17,14 +17,15 @@ namespace Blog.DataAccess.Entities.Repos
         {
             this.context = context;
         }
-        public void Create(string Content, float Rating, int Views,int UserId)
+        public void Create(string Content, int Rating, int Views,int UserId,string Title)
         {
             context.Posts.Add(new Post()
             {
                 Content = Content,
                 Views = Views,
                 Rating = Rating,
-                UserId = UserId
+                UserId = UserId,
+                Title = Title
             });
         }
 
@@ -59,15 +60,17 @@ namespace Blog.DataAccess.Entities.Repos
             return list;
         }
 
-        public void Update(int Id, string Content,  float Rating, int Views)
+        public void Update(int Id, string Content,  int Rating, int Views,string Title)
         {
             Post post = context.Posts.Find(Id);
-            if (String.IsNullOrEmpty(Content))
+            if (!String.IsNullOrEmpty(Content))
                 post.Content = Content;
             if (Views != 0)
                 post.Views = Views;
             if (Rating != 0)
                 post.Rating = Rating;
+            if (!String.IsNullOrEmpty(Content))
+                post.Title = Title;
 
             context.Posts.AddOrUpdate(post);
         }
