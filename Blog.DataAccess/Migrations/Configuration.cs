@@ -1,4 +1,4 @@
-namespace Blog.DataAccess.Migrations
+ namespace Blog.DataAccess.Migrations
 {
     using System;
     using System.Data.Entity;

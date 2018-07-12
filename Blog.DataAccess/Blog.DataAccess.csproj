@@ -50,13 +50,13 @@
     <Compile Include="BlogDataContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repos\EFImageRepo.cs" />
-    <Compile Include="Repos\EFPostImageRepo.cs" />
-    <Compile Include="Repos\EFPostRepo.cs" />
-    <Compile Include="Repos\EFRoleRepo.cs" />
-    <Compile Include="Repos\EFTagRepo.cs" />
-    <Compile Include="Repos\EFUserCredentialRepo.cs" />
-    <Compile Include="Repos\EFUserRepo.cs" />
+    <Compile Include="Repos\PostAggregate\EFImageRepo.cs" />
+    <Compile Include="Repos\PostAggregate\EFPostImageRepo.cs" />
+    <Compile Include="Repos\PostAggregate\EFPostRepo.cs" />
+    <Compile Include="Repos\PostAggregate\EFTagRepo.cs" />
+    <Compile Include="Repos\UserAggreagate\EFRoleRepo.cs" />
+    <Compile Include="Repos\UserAggreagate\EFUserCredentialRepo.cs" />
+    <Compile Include="Repos\UserAggreagate\EFUserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

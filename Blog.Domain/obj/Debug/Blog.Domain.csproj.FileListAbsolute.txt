@@ -16,7 +16,6 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.d
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.pdb

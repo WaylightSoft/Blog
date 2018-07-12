@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Image.cs" />
     <Compile Include="Entities\IRepos\IImageRepo.cs" />
     <Compile Include="Entities\IRepos\IPostImageRepo.cs" />
     <Compile Include="Entities\IRepos\IPostRepo.cs" />
@@ -57,14 +56,19 @@
     <Compile Include="Entities\IRepos\ITagRepo.cs" />
     <Compile Include="Entities\IRepos\IUserCredentialRepo.cs" />
     <Compile Include="Entities\IRepos\IUserRepo.cs" />
-    <Compile Include="Entities\Post.cs" />
-    <Compile Include="Entities\PostImage.cs" />
-    <Compile Include="Entities\PostTag.cs" />
-    <Compile Include="Entities\Role.cs" />
-    <Compile Include="Entities\sysdiagram.cs" />
-    <Compile Include="Entities\Tag.cs" />
-    <Compile Include="Entities\User.cs" />
-    <Compile Include="Entities\UserCredential.cs" />
+    <Compile Include="Entities\PlatformInfo.cs" />
+    <Compile Include="Entities\PostAggregate\Comment.cs" />
+    <Compile Include="Entities\PostAggregate\Image.cs" />
+    <Compile Include="Entities\PostAggregate\Post.cs" />
+    <Compile Include="Entities\PostAggregate\PostImage.cs" />
+    <Compile Include="Entities\PostAggregate\PostTag.cs" />
+    <Compile Include="Entities\PostAggregate\Tag.cs" />
+    <Compile Include="Entities\UserAggreagate\Role.cs" />
+    <Compile Include="Entities\UserAggreagate\User.cs" />
+    <Compile Include="Entities\UserAggreagate\UserCredential.cs" />
+    <Compile Include="Entities\UserAggreagate\UserRatedPost.cs" />
+    <Compile Include="Entities\UserAggreagate\UserSubsToTag.cs" />
+    <Compile Include="Entities\UserAggreagate\UserSubToUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

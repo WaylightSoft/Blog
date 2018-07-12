@@ -1,3 +1,5 @@
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -6,13 +8,9 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.DomainT
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.Domain.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.AppLogic.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.Domain.pdb
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.Domain.dll.config
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\bin\Debug\Blog.AppLogic.pdb
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.csprojResolveAssemblyReference.cache
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.DomainTests\obj\Debug\Blog.DomainTests.pdb

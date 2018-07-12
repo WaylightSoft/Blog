@@ -1,6 +1,5 @@
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\bin\Debug\Blog.AppLogic.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\bin\Debug\Blog.AppLogic.pdb
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\obj\Debug\Blog.AppLogic.csprojResolveAssemblyReference.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\obj\Debug\Blog.AppLogic.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\obj\Debug\Blog.AppLogic.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.AppLogic\obj\Debug\Blog.AppLogic.pdb

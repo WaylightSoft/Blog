@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Unity;
-using Blog.Domain;
+using Blog.Domain.Entities;
 using Blog.Domain.Entities.Repos;
 using Blog.Infrastructure;
 using Blog.AppLogic.DTO.PostImage;

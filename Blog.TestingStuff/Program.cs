@@ -7,8 +7,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 using System.Data.Entity;
 using Blog.Infrastructure;
+using Blog.Domain.Entities;
 using Blog.Domain.Entities.Repos;
 using Unity;
+using Blog.DataAccess;
 
 namespace Blog.TestingStuff
 {

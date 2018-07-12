@@ -50,11 +50,17 @@ C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramew
 C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.SqlServer.dll
 C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.xml
 C:\Users\Admin\source\DotNet and C#\Blog.WebLayer\Blog.WebLayer\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\ApplicationInsights.config
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.dll.config
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.WebLayer.pdb
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Antlr3.Runtime.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.AppLogic.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.Domain.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.Infrastructure.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\CommonServiceLocator.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.SqlServer.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.Agent.Intercept.dll
@@ -77,7 +83,20 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Razor.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Abstractions.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Configuration.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Container.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Interception.Configuration.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Interception.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.RegistrationByConvention.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.ServiceLocation.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\WebGrease.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.DataAccess.dll
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.AppLogic.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.Domain.dll.config
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.Infrastructure.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\CommonServiceLocator.pdb
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\EntityFramework.SqlServer.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -92,13 +111,20 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.Razor.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Abstractions.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Configuration.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Container.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Interception.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.Interception.Configuration.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.RegistrationByConvention.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Unity.ServiceLocation.pdb
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Microsoft.AI.Web.xml
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csprojResolveAssemblyReference.cache
-C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.DataAccess.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\bin\Blog.DataAccess.dll.config
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.WebLayer\obj\Debug\Blog.WebLayer.pdb
