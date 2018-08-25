@@ -26,15 +26,14 @@ namespace Blog.WebLayer.Controllers
             }
         }
         [HttpPost]
-        public async HttpResponseMessage Register(ApplicationUser user)
+        public  ActionResult Register(ApplicationUser user)
         {
-            IdentityResult result = await UserManager.CreateAsync(user, user.Password);
+            IdentityResult result =  UserManager.Create(user, user.Password);
             if (result.Succeeded)
             {
                 return RedirectToAction("Login", "Account");
             }
-            return View("Login",user);
-
+            return View();
         }
 
     }
