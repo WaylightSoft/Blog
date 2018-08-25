@@ -13,6 +13,7 @@ namespace Blog.Domain.Entities.Repos
         void Update(int Id,string Nickname, string Bio, int RoleId);
         void Delete(int id);
         User GetUser(int id);
+        User GetUser(string nick);
         List<User> GetUsers(List<int> ids = null);
     }
 }

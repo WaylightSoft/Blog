@@ -7,6 +7,7 @@ namespace Blog.Domain.Entities
     using System.Data.Entity.Spatial;
 
     [Table("Post")]
+    [Serializable]
     public partial class Post
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]

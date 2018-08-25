@@ -19,3 +19,4 @@ C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\bin\Debug\EntityFramework.S
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.dll
 C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.pdb
+C:\Users\Admin\source\DotNet_and_C#\Blog\Blog.Domain\obj\Debug\Blog.Domain.csprojResolveAssemblyReference.cache

@@ -46,6 +46,7 @@
     <Compile Include="DTO\PostAggregate\PostImage\PostImageInsDTO.cs" />
     <Compile Include="DTO\PostAggregate\PostTag\PostTagEditionDTO.cs" />
     <Compile Include="DTO\PostAggregate\PostTag\PostTagInsDTO.cs" />
+    <Compile Include="DTO\PostAggregate\Post\PostDTO.cs" />
     <Compile Include="DTO\PostAggregate\Post\PostEditionDTO.cs" />
     <Compile Include="DTO\PostAggregate\Post\PostInsDTO.cs" />
     <Compile Include="DTO\UserAggregate\Role\RoleEditionDTO.cs" />

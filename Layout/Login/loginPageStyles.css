@@ -1,0 +1,30 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-areas: 
+    "espace espace espace" "e1 logininputs e2 ";
+    
+
+}
+.logininput
+{
+    grid-area: logininputs;
+}
+.stuff
+{
+    grid-area: espace;
+}
+.stuff0
+{
+    grid-area: e1;
+}
+.stuff1
+{
+    grid-area: e2;
+}
+.stuff2
+{
+    grid-area: e3;
+}

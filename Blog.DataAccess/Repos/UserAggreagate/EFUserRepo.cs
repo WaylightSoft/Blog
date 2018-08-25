@@ -44,7 +44,10 @@ namespace Blog.DataAccess.Entities.Repos
         {
             return context.Users.Find(id);
         }
-
+        public User GetUser(string Nickname)
+        {
+            return context.Users.Where(x => x.Nickname == Nickname).First();
+        }
         public List<User> GetUsers(List<int> ids = null)
         {
             return ids == null ? context.Users.ToList() :

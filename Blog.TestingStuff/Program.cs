@@ -18,13 +18,15 @@ namespace Blog.TestingStuff
     {
         static void Main(string[] args)
         {
-            IUserCredentialRepo repo= Container.DIContainer.Resolve<IUserCredentialRepo>();
-            using (repo)
-                repo.Create("testlogi1213n11", "test-password");
-            Console.WriteLine(repo.GetUserCredential(12).Login);
-            using (repo)
-                repo.Delete(12);
             
+            IPostRepo repo= Container.DIContainer.Resolve<IPostRepo>();
+            
+            foreach(var item in repo.GetPosts(1, 0, 1))
+            {
+                Console.WriteLine(item.Id); 
+            }
+
+
         }
     }
 }

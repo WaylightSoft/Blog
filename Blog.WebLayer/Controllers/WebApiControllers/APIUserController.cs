@@ -22,6 +22,12 @@ namespace Blog.WebLayer.Controllers.WebApiControllers
             User img = repo.GetUser(Id);
             return Request.CreateResponse(HttpStatusCode.OK, img);
         }
+        [Route("api/APIUser/GetId/{nick}")]
+        [HttpGet]
+        public HttpResponseMessage GetId(string nick)
+        {   
+            return Request.CreateResponse(HttpStatusCode.OK, repo.GetUser(nick).Id);
+        }
         [HttpPost]
         public HttpResponseMessage Ins(UserInsDTO dto)
         {
